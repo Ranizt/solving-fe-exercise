@@ -1,0 +1,39 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.itemCard {
+  width: 300px;
+  cursor: pointer;
+}
+
+.itemCard * {
+  margin: 5px 0px;
+}
+
+img {
+  width: 300px;
+  border-radius: 1em;
+}
+
+.itemName {
+  color: grey;
+}
+
+.itemPrice {
+  font-size: 21px;
+  font-weight: 500;
+}
+
+.btn {
+  visibility: hidden;
+  width: 100%;
+}
+
+.itemCard:hover img {
+  opacity: 80%;
+}
+
+.itemCard:hover .btn {
+  visibility: visible;
+}

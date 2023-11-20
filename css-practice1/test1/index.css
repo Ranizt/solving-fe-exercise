@@ -1,0 +1,38 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btn {
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 0.5em;
+  font-weight: 600;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.rounded {
+  border-radius: 5em;
+}
+
+.filled {
+  background-color: #4f46e5;
+  border: none;
+  color: white;
+}
+
+.filled:hover {
+  opacity: 80%;
+}
+
+.outline {
+  border: 1px solid #4f46e5;
+  background-color: white;
+  color: #4f46e5;
+}
+
+.outline:hover {
+  background-color: #eef2ff;
+}

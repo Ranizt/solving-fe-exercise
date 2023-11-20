@@ -1,0 +1,66 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card {
+  width: 220px;
+  border: solid 2px #4f46e5;
+  border-radius: 20px;
+  padding: 30px;
+}
+
+h3 {
+  margin-top: 5px;
+  color: #4f46e5;
+  font-weight: 500;
+}
+
+p {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+#costInfo {
+  margin: 30px 0px 20px 0px;
+}
+
+#price {
+  font-weight: bold;
+  font-size: 35px;
+}
+
+#time {
+  color: rgb(80, 76, 76);
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.btn {
+  width: 100%;
+  margin: 0px 0px 30px 0px;
+}
+
+#tableContainer {
+  display: table;
+  border-spacing: 10px;
+  width: 100%;
+}
+
+.tableRow {
+  display: table-row;
+  width: 100%;
+}
+
+.index {
+  display: table-cell;
+  width: 80%;
+}
+
+.values {
+  display: table-cell;
+  width: 20%;
+}
+
+.unavailable {
+  opacity: 50%;
+}

@@ -1,0 +1,38 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#tableContainer {
+  display: table;
+  width: 100%;
+  border: 1px solid grey;
+  border-radius: 1em;
+  padding: 10px 0;
+}
+
+.tableRow {
+  display: table-row;
+  cursor: pointer;
+}
+
+.tableRow:hover {
+  background-color: rgb(240, 236, 236);
+}
+
+.tableRow:last-child .tableCell {
+  border-bottom: none;
+}
+
+.tableCell {
+  border-bottom: 1px solid grey;
+  padding-left: 20px;
+  display: table-cell;
+}
+
+.personName {
+  margin-bottom: 0px;
+}
+
+.email {
+  margin-top: 0px;
+}
